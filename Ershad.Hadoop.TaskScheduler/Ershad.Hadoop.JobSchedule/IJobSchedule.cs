@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ershad.Hadoop.TaskScheduler
+namespace Ershad.Hadoop.JobSchedule
 {
-    public class Class1
+    public interface IJobSchedule
     {
+        T Map<T>(Action<T> map, byte[] data);
     }
 }

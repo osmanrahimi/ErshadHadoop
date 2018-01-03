@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ershad.Hadoop.Reduce
 {
-    public class Class1
+    public class WordCountReduce
     {
     }
 }

@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ershad.Hadoop.HDFS", "Ersha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ershad.Hadoop.Main", "Ershad.Hadoop.Main\Ershad.Hadoop.Main.csproj", "{CD67AC35-0B3B-4FAC-9407-076197C4E412}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ershad.Hadoop.JobSchedule", "Ershad.Hadoop.JobSchedule\Ershad.Hadoop.JobSchedule.csproj", "{8B784835-761E-4EAF-8530-799DD42A762F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ershad.Hadoop.Core", "Ershad.Hadoop.Core\Ershad.Hadoop.Core.csproj", "{09F0C24F-6CEB-4F41-B1EE-A7398E1A7194}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{CD67AC35-0B3B-4FAC-9407-076197C4E412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD67AC35-0B3B-4FAC-9407-076197C4E412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD67AC35-0B3B-4FAC-9407-076197C4E412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B784835-761E-4EAF-8530-799DD42A762F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B784835-761E-4EAF-8530-799DD42A762F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B784835-761E-4EAF-8530-799DD42A762F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B784835-761E-4EAF-8530-799DD42A762F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F0C24F-6CEB-4F41-B1EE-A7398E1A7194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F0C24F-6CEB-4F41-B1EE-A7398E1A7194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F0C24F-6CEB-4F41-B1EE-A7398E1A7194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F0C24F-6CEB-4F41-B1EE-A7398E1A7194}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
